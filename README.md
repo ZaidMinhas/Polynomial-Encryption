@@ -3,7 +3,7 @@ This is an encryption algorithm that to encrypt any ascii text
 
 ## Function
 Program has a function f(x) that encrypts text
-f(x) if a polynomial function that has the form $f(x) = a(b\cdot x + c)^d + e$
+f(x) if a polynomial function that has the form $f(x) = a(b\cdot x + c)^d + e $
 
 g(x) is the inverse function of f(x) that returns the decrypted/original text
 default a,b,c,d values are set in the code but can be changed
