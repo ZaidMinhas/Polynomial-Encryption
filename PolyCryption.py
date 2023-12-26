@@ -1,5 +1,5 @@
 class PolyCryption:
-	a,b,c,d,e = 9,2,5,3,0
+	a,b,c,d,e = 9,2,4,3,0
 	def __init__(self, a = 1,b = 1,c = 0,d = 1,e = 0):
 		PolyCryption.a = a
 		PolyCryption.b = b
