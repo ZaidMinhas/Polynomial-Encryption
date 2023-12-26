@@ -24,6 +24,11 @@ PC(2,4,5,3,2)
 #or
 PC.a = 23
 # only a is changed
+
+P(1,1,0,1,0)
+#or
+P()
+# get ascii code of each character
 ```
 
 ## Caution 
@@ -32,7 +37,6 @@ Although the encryption algorithm works fine, using large coefficents for 'd' wi
 
 To be more technical you could say the length of each encrypted character is $O(a(b\cdot x + c)^d + e)$
 
-0 can only be used for c and e
-and to just get the ascii of each letter set to `P(1,1,0,1,0)` or  do `P()`
+0 can only be used for c and e, giving any other value a 0 will result in an error
 
 Negative numbers can be used for some of the values, however I heavily discourage using it
