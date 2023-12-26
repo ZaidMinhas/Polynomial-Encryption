@@ -16,7 +16,7 @@ y = PC.Decrypt(x)
 ```
 
 ## To change coefficents
-```
+```py
 PC(2,4,5,3)
 # a,b,c,d = 2,4,5,3
 
@@ -30,6 +30,6 @@ PC.a = 23
 Although the encryption algorithm works fine, using large coefficents for 'd' will result in large encrypted numbers, therefore I recommend using smaller values for d
 
 0 can only be used for c
-and to just get the ascii of each letter set P(1,1,0,1)
+and to just get the ascii of each letter set ```py P(1,1,0,1)```
 
 Negative numbers can be used for some of the values, however I heavily discourage using it
