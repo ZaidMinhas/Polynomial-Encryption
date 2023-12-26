@@ -30,7 +30,7 @@ PC.a = 23
 
 Although the encryption algorithm works fine, using large coefficents for 'd' will result in large encrypted numbers, therefore I recommend using smaller values for d. To be more technical you could say the length of each encrypted character is $O(a(b\cdot x + c)^d + e)$
 
-0 can only be used for c
-and to just get the ascii of each letter set to `P(1,1,0,1,0)`
+0 can only be used for c and e
+and to just get the ascii of each letter set to `P(1,1,0,1,0)` or  do `P()`
 
 Negative numbers can be used for some of the values, however I heavily discourage using it
