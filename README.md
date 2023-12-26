@@ -29,6 +29,7 @@ PC.a = 23
 ## Caution 
 
 Although the encryption algorithm works fine, using large coefficents for 'd' will result in large encrypted numbers, therefore I recommend using smaller values for d. 
+
 To be more technical you could say the length of each encrypted character is $O(a(b\cdot x + c)^d + e)$
 
 0 can only be used for c and e
