@@ -6,7 +6,7 @@ Program has a function f(x) that encrypts text
 f(x) if a polynomial function that has the form $f(x) = a(b\cdot x + c)^d + e $
 
 g(x) is the inverse function of f(x) that returns the decrypted/original text
-default a,b,c,d values are set in the code but can be changed
+default a,b,c,d,e values are set in the code but can be changed
 
 ## Basic Usage
 ```py
